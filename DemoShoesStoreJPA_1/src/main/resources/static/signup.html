@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../static/css/test.css">
+</head>
+<body>
+<form action="/signup" method="post">
+    <div>
+        <p>UserName</p>
+        <input type="text" name="username" required placeholder="Username" autocomplete="off" />
+    </div>
+    <div>
+        <p>Password</p>
+        <input type="password" name="password" required placeholder="Password" autocomplete="off" />
+    </div>
+    <select name="position">
+        <option value="1">Admin</option>
+        <option value="0">Staff</option>
+    </select>
+    <input type="submit" value="SignUp" />
+</form>
+</body>
+</html>

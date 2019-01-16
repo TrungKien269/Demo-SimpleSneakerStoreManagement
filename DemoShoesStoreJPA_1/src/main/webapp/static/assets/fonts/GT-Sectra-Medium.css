@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'GT-Sectra-Medium';
+    src: url('GT-Sectra-Medium.eot');
+    src: url('GT-Sectra-Medium.eot?#iefix') format('embedded-opentype'),
+        url('GT-Sectra-Medium.woff2') format('woff2'),
+        url('GT-Sectra-Medium.woff') format('woff'),
+        url('GT-Sectra-Medium.svg#GT-Sectra-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
